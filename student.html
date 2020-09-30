@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Universiy Student Attendence System</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 style="color: darkblue;font-family: calibri;"><div style="float: left;">
+		<img class="img-thumbnail" src="images/jone.jpg" width="300"  style="border-radius: 15px;margin-right: 20px;"></div>
+	<div>M.K Jhone<br>
+
+	</div>
+		<div style="float: left;">
+		<div class="jumbotron" style="float: left;padding-left: 100px;padding-right: 120px;">
+			<p style="font-size: 18px;">
+			
+					<label> Name</label>:<b>Mathew Kamil Jhone</b><br>
+					<label> Department</label>:Remote Sensing and GIS<br/>
+					<label>Home-Town</label>:Colombo<br/>
+					
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+var d = new Date();
+var c = new Date();
+document.write( d.getDate()+"/"+d.getMonth()+"/"+d.getFullYear());
+document.write("\n");
+var day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+document.write("\n");
+document.write(c.getHours()  +":"+c.getMinutes()+":"+c.getSeconds());
+</script>
+
+		</p>
+		</div>
+
+	</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<button type="button" class="btn-primary" style="margin-left: 40px;margin-bottom: 20px"><a href="login.html" style="color: white;text-decoration: none;">Back</a> </button>
+</body>
+</html>
